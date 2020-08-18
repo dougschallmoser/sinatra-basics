@@ -1,0 +1,16 @@
+<form action="/sundaes" method="POST">
+
+    <h1>Build a Sundae:</h1>
+    <br><br>
+
+    <label>Flavors</label>
+    <input type="text" name="ice_cream[flavor]">
+    <br><br>
+
+    <label>Toppings</label>
+    <input type="text" name="toppings[][name]">
+    <input type="text" name="toppings[][name]">
+    <input type="text" name="toppings[][name]">
+
+    <input type="submit">
+</form>
